@@ -1,0 +1,111 @@
+/* GlassForm.css */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a57e32;
+}
+.form-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 97%;
+    height: 96vh;
+    border-radius: 20px;
+    background-color: #EDBE5F;
+}
+  
+  .glass-form {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 720px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .glass-form h2 {
+    margin-bottom: 1rem;
+  }
+  .country{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  }
+  .glass-form input,
+  .glass-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  }
+  .enquiry{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  }
+  
+  .glass-form textarea {
+    resize: vertical; /* Allow vertical resizing for textarea */
+  }
+  
+  .glass-form button {
+    margin-top: 8px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    width: 150px;
+    transition: background 0.3s ease;
+  }
+  
+  .glass-form button:hover {
+    background: #3e8541;
+  }
+  
+/* Responsive styles for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  .glass-form {
+      width: 90%;
+      padding: 1rem;
+  }
+  .glass-form button {
+      width: 100%;
+  }
+}
+
+/* Responsive styles for screens with a width between 481px and 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .glass-form {
+      width: 80%;
+      padding: 1rem;
+  }
+}
+
+/* Responsive styles for screens with a width between 769px and 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .glass-form {
+      width: 60%;
+      padding: 1.5rem;
+  }
+}

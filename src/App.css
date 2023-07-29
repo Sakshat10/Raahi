@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+*{
+  font-family: 'Architects Daughter', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  z-index: 100;
+  position: fixed;
+}
+.title{
+  margin-left: 20px;
+  font-weight: bolder;
+  letter-spacing: 18px;
+  font-size: 35px;
+  font-family: 'MedievalSharp', cursive;
+  animation-name: title;
+  animation-duration: 2s;
+}
+@keyframes title{
+  0%{
+    margin-left: -60px;
+  }
+  100%{
+    margin-left: 20px;
+  }
+
+}
+/* navbar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  gap: 16%;
+  margin: 20px 30px;
+  position: absolute;
+  top: 12px;
+}
+.list{
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  margin-left: 54%;
+}
+.nav-list{
+  cursor: pointer;
+}
+.nav-list:hover{
+  color: steelblue;
+}
+.drop-down{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  bottom: 7%;
+  left: 45%;
+}
+.icon{
+  transition: transform .2s; 
+  font-size: 30px;
+  color: rgb(59, 66, 72);
+  cursor: pointer;
+}
+.icon:hover{
+  transform: scale(1.3); 
+  color: steelblue;
+}
+.scroll{
+  font-size: 20px;
+  color: rgb(88, 54, 10);
+}
+
+/* Home */
+.line{
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Architects Daughter', cursive;
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  animation: home-para;
+  animation-duration: 2s;
+}
+@keyframes home-para{
+  0%{
+    left: -10%;
+  }
+  100%{
+    left: 3%;
+  }
+}
+
+.photo{
+  width: 100%;
+  height: 100vh;
+}
+/* carousel */
+/* .cards{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  padding: 10px;
+  background-color: #3b4248;
+}
+.card-img{
+  left: 0;
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+.card-img:hover{
+  transform: translateX(-10px);
+  transform: scale(1.4);
+}
+#card-1{
+  position: relative;
+}
+#card-2{
+  position: absolute;
+  left: 400px;
+}
+#card-2:hover{
+  border: 2px solid black;
+  z-index: 13;
+}
+#card-3{
+  position: absolute;
+  left: 650px;
+}
+#card-3{
+  z-index: 10;
+}
+#card-4{
+  position: absolute;
+  left: 900px;
+}
+.card-1{
+  border: 2px solid white;
+  width: 300px;
+  height: 300px;
+}
+ */
+
+
+ /* ************************  Article ******************** */
+
+.article{
+  position: relative;
+  border: 2px solid black;
+  font-family: 'Architects Daughter', cursive;
+  /* height: 100vh; */
+  text-align: center;
+  padding:30px;
+  margin-left: 10px;
+  padding-top: 70px;
+  margin-top: 7px;
+  background-color: #F6CA71;
+  border-radius: 20px;
+  width: 98.5%;
+
+}
+.article-back{
+  margin-top: -10px;
+  background-color: #a57e32;
+  padding: 10px;
+  padding-top: 17px;
+}
+/* .parch{
+  position: relative;
+} */
+.article-title{
+  top: 20px;
+  margin-bottom: 70px;
+}
+
+
+.article-card-1{
+  margin-bottom: 50px;
+  margin-left: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.article-card-2{
+  margin-left: 190px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-photo{
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  animation-name: card-anim;
+  animation-duration: 4s;
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+@keyframes card-anim{
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+.card-photo:hover{
+  transform: scale(1.1);
+  transition: .1s linear;
+}
+
+.article-para{
+  padding-left: 20px;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: center;
+}
+.article-para-1{
+  /* text-indent: 50px; */
+  text-align: justify;
+  /* letter-spacing: 3px; */
+}
+.article-button-1{
+  margin-top: 3px;
+  border-radius: 10px;
+  width: 20%;
+  height: 12%;
+}
+.article-button-1:hover{
+  cursor: pointer;
+  background-color: slategrey;
+  transition: linear .4s;
+}
+.article-button-2{
+  margin-top: 3px;
+  border-radius: 10px;
+  width: 20%;
+  height: 12%;
+}
+.article-button-2:hover{
+  cursor: pointer;
+  background-color: slategrey;
+  transition: linear .4s;
+}
+.show{
+  cursor: pointer;
+  border: 2px solid black;
+  padding: 10px;
+  width: 10%;
+  margin-left: 0;
+}
+.show:hover{
+  background-color: #d1aa5b;
+  transition: .3s linear;
+}
+
+
