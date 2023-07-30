@@ -33,10 +33,10 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  gap: 16%;
-  margin: 20px 30px;
+  width: 96vw;
   position: absolute;
-  top: 12px;
+  top: 32px;
+  left: 10px;
 }
 .list{
   list-style: none;
