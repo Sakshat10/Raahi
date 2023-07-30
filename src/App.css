@@ -229,28 +229,6 @@
   text-align: justify;
   /* letter-spacing: 3px; */
 }
-.article-button-1{
-  margin-top: 3px;
-  border-radius: 10px;
-  width: 20%;
-  height: 12%;
-}
-.article-button-1:hover{
-  cursor: pointer;
-  background-color: slategrey;
-  transition: linear .4s;
-}
-.article-button-2{
-  margin-top: 3px;
-  border-radius: 10px;
-  width: 20%;
-  height: 12%;
-}
-.article-button-2:hover{
-  cursor: pointer;
-  background-color: slategrey;
-  transition: linear .4s;
-}
 .show{
   cursor: pointer;
   border: 2px solid black;
