@@ -33,7 +33,7 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  width: 96vw;
+  width: 95vw;
   position: absolute;
   top: 32px;
   left: 10px;
