@@ -15,7 +15,7 @@ const Article = () => {
         <img src={img1} alt="Colosseum" className='card-photo'/>
       </div>
       <div className='article-para'>
-        <h1>The Mosque of Rifai and Sultan Hassan</h1>
+        <h1 className='art-title'>The Mosque of Rifai and Sultan Hassan</h1>
         <p className='article-para-1'>The Mosque of Rifai, located in Cairo, Egypt, is renowned for its massive size and impressive dome, rising 52 meters high. Meanwhile, the nearby Sultan Hassan Mosque stands as an exquisite example of Mamluk architecture, featuring intricate stonework and stunning interiors. Both mosques are historical gems attracting visitors worldwide.</p>
         {/* <button className='article-button-1'>Read More</button> */}
       </div>
@@ -23,8 +23,8 @@ const Article = () => {
         {/* Article - 2 */}
         <div className='article-card-2'>
       <div className='article-para'>
-        <h1>Giza Governorate</h1>
-        <p className='article-para-1'>Giza Governorate, Egypt, is famous for housing the iconic Giza Plateau, home to the Great Pyramid of Giza, one of the Seven Wonders of the Ancient World. Alongside the pyramids, the enigmatic Sphinx stands tall. Giza Governorate is an archaeological treasure trove, attracting millions of tourists yearly. Its strategic location on the Nile's west bank makes it a historically significant region, with numerous ancient tombs, temples, and monuments dotting the landscape. Moreover, Giza is not only steeped in ancient history but also features a vibrant modern city with a mix of traditional and contemporary culture.</p>
+        <h1 className='art-title'>Giza Governorate</h1>
+        <p className='article-para-1'>Giza Governorate, located in Egypt, is a historical and cultural hub. Home to the iconic Giza Pyramid Complex, it captivates visitors with its ancient wonders. As Egypt's third-largest governorate, Giza offers a blend of modernity and tradition, boasting museums, parks, and vibrant markets. Its rich heritage, including the Sphinx, draws tourists from all over the world.</p>
         {/* <button className='article-button-2'>Read More</button> */}
       </div>
       <div className='article-image'>
