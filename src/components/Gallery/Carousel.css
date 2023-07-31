@@ -94,7 +94,7 @@
   .cards-container {
     width: calc(1000px * 2); /* Set the width to accommodate all cards */
   }
-    .card-title{
+  .card-title{
     font-size: 20px;
   }
 }
