@@ -76,7 +76,9 @@ h3{
     }
     .Footer-down{
         align-items: center;
-        bottom: 50%;
-        height: 30vh;
+        bottom: 60%;
+    }
+    .footer{
+        height: 5vh;
     }
 }
