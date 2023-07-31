@@ -84,16 +84,16 @@ body, html{
   width: 500px;
   position: absolute;
   top: 20%;
-  left: 3%;
+  left: 30%;
   animation: home-para;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 @keyframes home-para{
   0%{
     left: -10%;
   }
   100%{
-    left: 3%;
+    left: 30%;
   }
 }
 
