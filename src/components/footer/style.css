@@ -48,10 +48,11 @@ h3{
 .Footer-down{
     font-weight: bolder;
     font-size: 20px;
-    margin-left: 100px;
-    width: 85%;
+    /* margin-left: 100px; */
+    width: 95%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* gap: 10px; */
     color: rgb(8, 8, 7);
     position: absolute;
     bottom: 6%;
