@@ -7,6 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body, html{
+  overflow-x: hidden;
+}
 .container{
   z-index: 100;
   position: fixed;
