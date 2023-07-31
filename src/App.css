@@ -282,6 +282,9 @@
     top: 32px;
     left: 5px;
   }
+  .article{
+    margin-left: 0px;
+  }
   .title{
     font-size: 16px;
   }
@@ -300,9 +303,6 @@
   }
   .photo{
     width: 100%;
-  }
-    .article{
-    margin-left: 0px;
   }
 
   .art-title{
@@ -325,3 +325,40 @@
   }
 
 }
+/* @media screen, (min-width: 401px) and  (max-witdh: 699px) {
+  
+  .list{
+    visibility: hidden;
+    gap: 0px;
+  }
+  .title{
+    font-size: 22px;
+  }
+
+  .line{
+    font-size: 13px;
+    width: 90%;
+  }
+  .article-title{
+    font-size: 19px;
+    margin-bottom: 16px;
+  }
+  .art-title{
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .article-para{
+    height: 40vh;
+    width: 100%;
+    padding: 0px;
+    gap: 0px;
+  }
+  .article-card-1{
+    width: 100%;
+  }
+  .article-card-2{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+} */
