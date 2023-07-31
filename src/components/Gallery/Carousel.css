@@ -98,3 +98,14 @@
     font-size: 20px;
   }
 }
+@media screen and (max-width: 450px){
+  .card-title{
+    font-size: 22px;
+  }
+  .cards-container {
+    width: calc(1000px * 2); /* Set the width to accommodate all cards */
+  }
+  .cards{
+    width: 100%;
+  }
+}
