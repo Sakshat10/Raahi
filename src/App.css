@@ -301,6 +301,9 @@
   .photo{
     width: 100%;
   }
+    .article{
+    margin-left: 0px;
+  }
 
   .art-title{
     font-size: 15px;
