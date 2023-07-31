@@ -97,12 +97,60 @@
   width: 100%;
   height: 100vh;
 }
+/* carousel */
+/* .cards{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  padding: 10px;
+  background-color: #3b4248;
+}
+.card-img{
+  left: 0;
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+.card-img:hover{
+  transform: translateX(-10px);
+  transform: scale(1.4);
+}
+#card-1{
+  position: relative;
+}
+#card-2{
+  position: absolute;
+  left: 400px;
+}
+#card-2:hover{
+  border: 2px solid black;
+  z-index: 13;
+}
+#card-3{
+  position: absolute;
+  left: 650px;
+}
+#card-3{
+  z-index: 10;
+}
+#card-4{
+  position: absolute;
+  left: 900px;
+}
+.card-1{
+  border: 2px solid white;
+  width: 300px;
+  height: 300px;
+}
+ */
 
 
  /* ************************  Article ******************** */
 
 .article{
   position: relative;
+  /* border: 2px solid black; */
   font-family: 'Architects Daughter', cursive;
   /* height: 100vh; */
   text-align: center;
@@ -193,4 +241,20 @@
   transition: .3s linear;
 }
 
+@media screen and (min-width: 700px){
+  .article-card-1{
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+  }
+  .article-card-2{
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+  }
 
+  .list{
+    gap: 30px;
+  }
+    
+}
