@@ -9,7 +9,6 @@ const Footer = () => {
       <div className='blink'>
         <marquee behavior="scroll" direction="left" scrollamount='12'>Thanks For Visiting Our Website</marquee>
       </div>
-      <img src={image} alt="footer-img"  className='footer-image'/>
     <hr className='ruler'/>
     <div className='Footer-down'>
       <div className='copyright'>
