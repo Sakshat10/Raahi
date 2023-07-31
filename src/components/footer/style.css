@@ -67,9 +67,8 @@ h3{
         gap: 20px;
     }
     .ruler{
-        width: 0;
+        visibility: hidden;
     }
-
     .copyright{
         font-size: 10px;
         align-items: center;
@@ -82,3 +81,14 @@ h3{
         height: 5vh;
     }
 }
+/* @media screen, (min-width: 401px) and  (max-witdh: 500px) {
+    .ruler{
+        visibility: hidden;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+    .footer{
+        height: 5vh;
+    }
+} */
