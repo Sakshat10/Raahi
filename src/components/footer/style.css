@@ -62,7 +62,7 @@ h3{
     display: flex;
     gap: 30px;
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
     .Footer-links{
         gap: 20px;
     }
